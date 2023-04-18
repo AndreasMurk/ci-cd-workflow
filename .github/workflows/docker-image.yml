@@ -7,11 +7,9 @@ on:
     branches: [ "main" ]
 
 jobs:
-
-  build:
+  push_and_build:
     name: Build and push Docker image to docker hub
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
     - uses: actions/checkout@v3
