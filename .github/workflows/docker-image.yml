@@ -25,5 +25,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: latest
+        tags: andim202/my-repository:latest
         labels: node
